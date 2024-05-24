@@ -1,0 +1,370 @@
+@font-face {
+    font-family: UpheavalPro;
+    src: url(../UpheavalPro.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    font-family: 'UpheavalPro';
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #ffffff11;
+    filter: blur(5px);
+}
+
+body {
+    /*background: #17181c;*/
+    background-image: url(/Image/Background.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+/* NAVBAR */
+
+nav {
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 4rem calc(15vh - 2rem) 1fr 0fr 10rem 4rem;
+    grid-template-rows: 1rem 1fr 1fr 1rem;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#asset-store {
+    grid-area: 2 / 5 / 4 / 6;
+    background-color: #ffffff11;
+    border-radius: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 32px 8px rgba(0, 0, 0, 1);
+    transition: all .2s ease-in-out;
+}
+
+#asset-store:hover {
+    background-color: #ffffff22;
+    box-shadow: 0px 0px 32px 0px rgb(255, 255, 255, .1);
+    border: #fff 1px solid;
+    font-size: 1.02rem;
+}
+
+#asset-store i.fa-brands {
+    margin-right: 5px;
+}
+
+#logo {
+    background-image: url(/Image/logo.png);
+    background-size: cover;
+    grid-area: 2 / 2 / 4 / 3;
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+#logo_text {
+    grid-area: 2 / 3 / 3 / 4;
+    justify-self: start;
+    align-self: end;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#logo_desc {
+    grid-area: 3 / 3 / 4 / 4;
+    justify-self: start;
+    align-self: start;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #aaa;
+}
+
+@media (max-width: 700px) {
+    #logo_text {
+        font-size: 1.4rem;
+    }
+
+    #logo_desc {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #logo_text {
+        display: none;
+    }
+
+    #logo_desc {
+        display: none;
+    }
+
+    #asset-store {
+        margin: 1rem 0;
+    }
+}
+
+/* END NAVBAR */
+
+
+
+
+
+.main {
+    background-size: cover;
+    background-position: center;
+
+
+    width: calc(100vw - 8rem);
+    height: calc(85vh - 8rem);
+    margin: 2rem 4rem 4rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 1);
+
+    position: relative;
+}
+
+.main a {
+    background-color: #00000099;
+    border-radius: 2rem;
+    margin: 0 .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 1);
+    transition: all .2s ease-in-out;
+    border: transparent 1px solid;
+}
+
+.main a:hover {
+    background-color: #ffffff44;
+    box-shadow: 0px 0px 32px 0px rgb(255, 255, 255, .3);
+    border: #fff 1px solid;
+    backdrop-filter: blur(2px);
+}
+
+.main i {
+    margin-left: .5rem;
+}
+
+@media (min-width: 550px) {
+    .price_text {
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .version_text {
+        bottom: 2rem;
+        left: 2rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .button_list {
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+    .game_title {
+        top: 2rem;
+        left: 2rem;
+    }
+}
+
+.price_text {
+    position: absolute;
+
+    background-color: #00000099;
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 1);
+}
+
+.version_text {
+    position: absolute;
+
+    background-color: #00000099;
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 1);
+}
+
+.button_list {
+    position: absolute;
+    display: flex;
+}
+
+.button_list a {
+    margin-right: .5rem;
+    padding: 1rem 2rem;
+}
+
+.game_title {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+
+    background-color: #00000099;
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 1);
+}
+
+.game_title .title {
+    font-size: 3rem;
+    height: 2.5rem;
+}
+
+.game_title .subtitle {
+    font-size: 2rem;
+    height: 3rem;
+    color: #ffffffaa;
+}
+
+.left_btn {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    z-index: 1;
+    bottom: calc(50% - 3rem);
+    left: -3rem;
+
+    background-color: #ffffff11;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, .4);
+    transition: all .2s ease-in-out;
+    border: transparent 2px solid;
+}
+
+.left_btn:hover,
+.right_btn:hover {
+    background-color: #ffffff22;
+    box-shadow: 0px 0px 32px 0px rgb(255, 255, 255, .1);
+    border: #fff 2px solid;
+    font-size: 1.5rem;
+}
+
+.left_btn i,
+.right_btn i {
+    margin: 0;
+}
+
+.right_btn {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    z-index: 1;
+    bottom: calc(50% - 3rem);
+    right: -3rem;
+    background-color: #ffffff11;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, .4);
+    transition: all .2s ease-in-out;
+    border: transparent 1px solid;
+}
+
+@media (max-width: 700px) {
+    .game_title .title {
+        font-size: 2rem;
+        height: 1.8rem;
+    }
+
+    .game_title .subtitle {
+        font-size: 1rem;
+        height: 1.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .button_list {
+        display: inline;
+    }
+
+    .button_list a {
+        margin-top: .5rem !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .price_text {
+        top: 10rem;
+        left: 2rem;
+    }
+
+    .version_text {
+        position: absolute;
+        top: 7rem;
+        left: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .button_list {
+        width: 100%;
+    }
+
+    .button_list a {
+        margin-top: 1rem !important;
+    }
+
+    .button_list {
+        bottom: 1rem;
+        right: 0rem;
+    }
+
+    .game_title {
+        top: 1rem;
+        left: 1rem;
+        width: calc(100% - 2rem);
+        text-align: center;
+    }
+
+    .game_title .title {
+        font-size: 1.5rem;
+        height: 1.3rem;
+    }
+
+    .version_text {
+
+        top: 5.5rem;
+        left: calc(50% - 5rem);
+        width: 10rem;
+        text-align: center;
+    }
+
+    .price_text {
+        top: 8rem;
+        left: calc(50% - 4rem);
+        width: 8rem;
+        text-align: center;
+    }
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 2rem;
+    text-align: center;
+    left: calc(50% - 7rem);
+    width: 14rem;
+    font-size: 0.7rem;
+
+    background-color: #000000aa;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    backdrop-filter: blur(10px);
+}

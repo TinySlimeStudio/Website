@@ -1,0 +1,415 @@
+@font-face {
+    font-family: UpheavalPro;
+    src: url(../UpheavalPro.ttf);
+}
+
+:root {
+    --bg-lv-1: #00000099;
+    --bg-lv-1-blur: 6px;
+
+    --bg-lv-2: #0000006;
+    --bg-lv-2-blur: 2px;
+
+    --shadow: 0px 0px 8px #00000088;
+    --shadow-hover: 0px 0px 12px #000000aa;
+}
+
+::-webkit-scrollbar {
+    height: .5rem;
+    width: .5rem;
+    background: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff33;
+    border-radius: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    font-family: 'UpheavalPro';
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url(../Image/HellishBattleCover.webp);
+}
+
+
+
+/* NAVBAR SETTINGS */
+nav {
+    backdrop-filter: blur(8px) saturate(150%);
+    -webkit-backdrop-filter: blur(8px) saturate(150%);
+    background-color: rgba(0, 0, 0, 0.66);
+
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 5rem 1fr 11rem;
+    grid-template-rows: 5rem;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    box-shadow: var(--shadow);
+    padding-right: 1rem;
+}
+
+#logo_link {
+    height: 5rem;
+    width: 5rem;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#logo {
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    filter: drop-shadow(var(--shadow));
+}
+
+#nav_name {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#nav_name #nav_name {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+#nav_name #nav_desc {
+    font-size: 1rem;
+    margin-top: -0.3rem;
+    margin-bottom: 0.5rem;
+    color: #aaa;
+    padding-left: 1rem;
+}
+
+.nav_link {
+    background-color: var(--bg-lv-2);
+    backdrop-filter: blur(var(--bg-lv-2-blur));
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: var(--shadow);
+    transition: all .1s ease-in-out;
+}
+
+.nav_link:hover {
+    font-size: 1.6rem;
+}
+
+.nav_link:hover i {
+    filter: drop-shadow(0px 0px 4px #ffffff66);
+}
+
+#nav_btn_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 3rem);
+    grid-template-rows: 5rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+
+#nav_discord {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#nav_asset {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#nav_youtube {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+/* NAVBAR SETTINGS */
+
+
+
+
+#panel {
+    height: calc(100vh - 5rem);
+    padding: 1rem .5rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    box-shadow: var(--shadow);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.List {
+    backdrop-filter: blur(8px) saturate(150%);
+    -webkit-backdrop-filter: blur(8px) saturate(150%);
+    background-color: rgba(0, 0, 0, 0.66);
+
+    width: 20rem;
+
+    max-height: calc(100vh - 7rem);
+    flex-shrink: 0;
+    border-radius: 1rem;
+    margin: 0 .5rem;
+    box-shadow: var(--shadow);
+    padding: .5rem;
+
+    overflow-x: auto;
+}
+
+.List_Title {
+    font-size: 1.2rem;
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
+.element {
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+.cover_element {
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    position: relative;
+}
+
+.cover_element img {
+    border-radius: 1rem;
+}
+
+.cover_element div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 100%);
+    text-align: center;
+
+    vertical-align: middle;
+    flex-direction: column-reverse;
+    display: flex;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+.category {
+    margin-bottom: .5rem;
+    display: inline-block;
+    padding: .25rem .5rem;
+    font-size: .7rem;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .5rem;
+    background-color: #ffffff44;
+    color: white;
+    border: 1px solid white;
+}
+
+.badge {
+    margin-top: .5rem;
+    display: inline-block;
+    padding: .2rem .8rem;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .5rem;
+    background-color: #ffffff33;
+    color: white;
+    border: 1px solid white;
+}
+
+.element h1 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.element h3 {
+    font-weight: 500;
+    color: #ccc;
+    font-size: .7rem;
+}
+
+/* Progress Bar */
+.progress {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #ffffff33;
+    color: white;
+    border: 1px solid white;
+    border-radius: .5rem;
+    margin: .5rem 0;
+}
+
+.progress_fill {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.progress p {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -1.4rem;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    color: #999;
+}
+
+/* Progress Bar */
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: .8rem;
+    padding-left: 1rem;
+}
+
+
+
+/* BADGE AND CATEGORY COLORS */
+.yellow {
+    background-color: #F0C80833;
+    color: #F0C808 !important;
+    border: 1px solid #F0C808;
+}
+
+.yellow * {
+    color: #F0C808;
+}
+
+.yellow .progress_fill {
+    background-color: #F0C808;
+}
+
+.yellow.progress p {
+    color: white !important;
+}
+
+
+.red {
+    background-color: #BA1F3333;
+    color: #BA1F33 !important;
+    border: 1px solid #BA1F33;
+}
+
+.red * {
+    color: #BA1F33 !important;
+}
+
+.red .progress_fill {
+    background-color: #BA1F33;
+}
+
+.red.progress p {
+    color: white !important;
+}
+
+
+
+.green {
+    background-color: #40985e33;
+    color: #40985e !important;
+    border: 1px solid #40985e;
+}
+
+.green * {
+    color: #40985e !important;
+}
+
+.green .progress_fill {
+    background-color: #40985e;
+}
+
+.green.progress p {
+    color: white !important;
+}
+
+
+
+.blue {
+    background-color: #51E5FF33;
+    color: #51E5FF !important;
+    border: 1px solid #51E5FF;
+}
+
+.blue * {
+    color: #51E5FF !important;
+}
+
+.blue .progress_fill {
+    background-color: #51E5FF;
+}
+
+.blue.progress p {
+    color: white !important;
+}
+
+
+
+.purple {
+    background-color: #9354C933;
+    color: #9354C9 !important;
+    border: 1px solid #9354C9;
+}
+
+.purple * {
+    color: #9354C9 !important;
+}
+
+.purple .progress_fill {
+    background-color: #9354C9;
+}
+
+.purple.progress p {
+    color: white !important;
+}
+
+
+
+.orange {
+    background-color: #F6511D33;
+    color: #F6511D !important;
+    border: 1px solid #F6511D;
+}
+
+.orange * {
+    color: #F6511D !important;
+}
+
+.orange .progress_fill {
+    background-color: #BA1F33;
+}
+
+.orange.progress p {
+    color: white !important;
+}
+
+/* BADGE AND CATEGORY COLORS */

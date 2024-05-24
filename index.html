@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<title>Tiny Slime Studio</title>
+		<meta name="description" content="I am a young nineteen-year-old programmer creating simple but working game prototypes" />
+		<meta name="keywords" content="Tiny Slime, Tiny Slime Studio, Hellish Battle, Retro FPS, Doom, Meet and talk, Loot Table, Draw The LIne, Unity, Assets, Unity Assets" />
+		<meta name="author" content="Tiny Slime Studio" />
+
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://kit.fontawesome.com/f914c1df03.js" crossorigin="anonymous"></script>
+	</head>
+	<body style="background-image: url(./Image/Background.webp)">
+		<nav>
+			<div id="logo"></div>
+			<h4 id="logo_text">Tiny SLime Studio</h4>
+			<h5 id="logo_desc">Game Developer</h5>
+			<a href="https://assetstore.unity.com/publishers/63085" id="asset-store" target="_blank"><i class="fa-brands fa-unity"></i>Asset Store</a>
+		</nav>
+
+		<!-- Hellish Battle -->
+		<div id="HellishBattle" class="main" style="background-image: url(Image/HellishBattleCover.webp)">
+			<div class="game_title">
+				<p class="title">Hellish Battle</p>
+				<p class="subtitle">2.5D Retro FPS</p>
+			</div>
+
+			<p class="version_text">Version: 2.4.0a</p>
+			<p class="price_text">9.99$</p>
+
+			<button class="left_btn" onclick="DrawTheLine()"><i class="fa-solid fa-arrow-left"></i></button>
+			<button class="right_btn" onclick="MeetAndTalk()"><i class="fa-solid fa-arrow-right"></i></button>
+
+			<span class="button_list">
+				<a href="https://trello.com/b/LLsG1tUJ/hellish-battle-25d-retro-fps-game-template" class="trailer_page" target="_blank">Roadmap<i class="fa-brands fa-trello"></i></a>
+				<a href="" class="demo_page" target="_blank">Demo<i class="fa-solid fa-gamepad"></i></a>
+				<a href="https://u3d.as/2Nyc" class="store_page" target="_blank">Store<i class="fa-brands fa-unity"></i></a>
+			</span>
+		</div>
+
+		<!-- Meet and Talk -->
+		<div id="MeetAndTalk" class="main" style="background-image: url(Image/MeetAndTalk_Background.webp)">
+			<div class="game_title">
+				<p class="title">Meet and Talk</p>
+				<p class="subtitle">Dialogue System</p>
+			</div>
+
+			<p class="version_text">Version: 1.5.0a</p>
+			<p class="price_text">Free / 4.99$</p>
+
+			<button class="left_btn" onclick="HellishBattle()"><i class="fa-solid fa-arrow-left"></i></button>
+			<button class="right_btn" onclick="LootTable()"><i class="fa-solid fa-arrow-right"></i></button>
+
+			<span class="button_list">
+				<a href="https://trello.com/b/PesaRufS/meet-and-talk-dialogue-system" class="trailer_page" target="_blank">Roadmap<i class="fa-brands fa-trello"></i></a>
+				<a href="https://u3d.as/30sy" class="demo_page" target="_blank">Full Version<i class="fa-brands fa-unity"></i></a>
+				<a href="https://u3d.as/30vK" class="store_page" target="_blank">Free Version<i class="fa-brands fa-unity"></i></a>
+			</span>
+		</div>
+
+		<!-- Loot Table -->
+		<div id="LootTable" class="main" style="background-image: url(/Image/LootTable.Webp)">
+			<div class="game_title">
+				<p class="title">Loot Table</p>
+				<p class="subtitle">Universal Loot System</p>
+			</div>
+
+			<p class="version_text">Version: 2.0.0a</p>
+			<p class="price_text">Free</p>
+
+			<button class="left_btn" onclick="MeetAndTalk()"><i class="fa-solid fa-arrow-left"></i></button>
+			<button class="right_btn" onclick="DrawTheLine()"><i class="fa-solid fa-arrow-right"></i></button>
+
+			<span class="button_list">
+				<a href="https://u3d.as/2VXG" class="store_page" target="_blank">Store<i class="fa-brands fa-unity"></i></a>
+			</span>
+		</div>
+
+		<!-- Draw The Line -->
+		<div id="DrawTheLine" class="main" style="background-image: url(Image/DrawTheLine.Webp)">
+			<div class="game_title">
+				<p class="title">Draw The Line</p>
+				<p class="subtitle">Game Template</p>
+			</div>
+
+			<p class="version_text">Version: 1.0.0a</p>
+			<p class="price_text">4.99$</p>
+
+			<button class="left_btn" onclick="LootTable()"><i class="fa-solid fa-arrow-left"></i></button>
+			<button class="right_btn" onclick="HellishBattle()"><i class="fa-solid fa-arrow-right"></i></button>
+
+			<span class="button_list">
+				<a href="https://u3d.as/2M29" class="store_page" target="_blank">Store<i class="fa-brands fa-unity"></i></a>
+			</span>
+		</div>
+
+		<p class="footer">Tiny Slime Studio | 2022 - 2024</p>
+
+		<script>
+			function HellishBattle() {
+				document.getElementById("HellishBattle").style.display = "block";
+				document.getElementById("MeetAndTalk").style.display = "none";
+				document.getElementById("LootTable").style.display = "none";
+				document.getElementById("DrawTheLine").style.display = "none";
+			}
+
+			function MeetAndTalk() {
+				document.getElementById("HellishBattle").style.display = "none";
+				document.getElementById("MeetAndTalk").style.display = "block";
+				document.getElementById("LootTable").style.display = "none";
+				document.getElementById("DrawTheLine").style.display = "none";
+			}
+
+			function LootTable() {
+				document.getElementById("HellishBattle").style.display = "none";
+				document.getElementById("MeetAndTalk").style.display = "none";
+				document.getElementById("LootTable").style.display = "block";
+				document.getElementById("DrawTheLine").style.display = "none";
+			}
+
+			function DrawTheLine() {
+				document.getElementById("HellishBattle").style.display = "none";
+				document.getElementById("MeetAndTalk").style.display = "none";
+				document.getElementById("LootTable").style.display = "none";
+				document.getElementById("DrawTheLine").style.display = "block";
+			}
+
+			window.onload = function () {
+				HellishBattle();
+			};
+		</script>
+	</body>
+</html>
