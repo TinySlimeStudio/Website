@@ -1,0 +1,78 @@
+{
+  "CardImage": "../src/assets/projects/LootTable/CoverArt.webp",
+  "Icon": "../src/app/projects/LootTable/Logo.png",
+  "ShortName": "Loot Table",
+  "Title": "Loot Table",
+  "SubTitle": "Universal Loot System",
+  "Description": "Do you want your opponents in your game to drop a loot, or you want the crates to be loot like borderlands? Loot Table is the perfect solution.",
+  "Price": "Free",
+  "Version": "2.0.0a",
+  "Category": "Universal System",
+  "UnityVersion": "2021.3.17",
+  "ReleaseDate": "2022-10-25",
+  "StoreLink": "https://u3d.as/2VXG",
+
+  "SitePath": "/projects/loot-table",
+
+  "DocumentationLink": "",
+  "RoadmapLink": "",
+  "TutorialLink": "",
+
+  "MainTag_1": "Loot System",
+  "MainTag_2": "Enemy Drop",
+  "MainTag_3": "Chest System",
+
+  "Tags": [
+    "Drop",
+    "Chest Drop",
+    "Tool",
+    "Enemy Drop",
+    "Loot",
+    "Loot Table",
+    "Random",
+    "System"
+  ],
+
+  "images": [
+    { "url": "../src/assets/projects/LootTable/CoverArt.webp", "alt": "Cover Art" },
+    { "url": "../src/assets/projects/LootTable/P1.webp", "alt": "Screenshot Nr. 1" },
+    { "url": "../src/assets/projects/LootTable/P2.webp", "alt": "Screenshot Nr. 2" },
+    { "url": "../src/assets/projects/LootTable/P3.webp", "alt": "Screenshot Nr. 3" },
+    { "url": "../src/assets/projects/LootTable/P4.webp", "alt": "Screenshot Nr. 4" }
+  ],
+  "notes": [
+    {
+      "version": "2.0.0",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Add Restricted Spawn Area" },
+        { "badge": 1, "text": "Add New Drop Functions" },
+        { "badge": 1, "text": "Add Default Drop Settings" },
+        { "badge": 1, "text": "Script Optimization" },
+        { "badge": 2, "text": "New Loot Table Editor" },
+        { "badge": 3, "text": "Various Bug Fixes" }
+      ]
+    },
+    {
+      "version": "1.1.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Add Validation" },
+        { "badge": 3, "text": "Fix Loot Loop Erro" },
+        { "badge": 3, "text": "Fix DoLayout Error" },
+        { "badge": 3, "text": "Fix Line 254 Error" }
+      ]
+    },
+    {
+      "version": "1.0.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Guaranteed Drops" },
+        { "badge": 1, "text": "Weight Base Random Item" },
+        { "badge": 1, "text": "Simple Universal Drop Function" },
+        { "badge": 1, "text": "Custom Inspector" },
+        { "badge": 1, "text": "Base Demo Scene" }
+      ]
+    }
+  ]
+}

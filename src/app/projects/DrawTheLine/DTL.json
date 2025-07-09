@@ -1,0 +1,76 @@
+{
+  "CardImage": "https://assetstorev1-prd-cdn.unity3d.com/key-image/c32c3a03-1668-4841-b838-d9cabe02bd9f.jpg",
+  "Icon": "../src/app/projects/DrawTheLine/Logo.png",
+  "ShortName": "Draw The Line",
+  "Title": "Draw The Line",
+  "SubTitle": "Game Template",
+  "Description": "Draw The Line - Game Template Simple game design where you have to guide the ball to the goal with the drawn line, collect tickets along the way and avoid obstacles",
+  "Price": "4.99$",
+  "Version": "1.1.0a",
+  "Category": "Game Template",
+  "UnityVersion": "2021.3.0f17+",
+  "ReleaseDate": "XXXX-XX-XX",
+  "StoreLink": "https://u3d.as/30sy",
+
+  "SitePath": "/projects/draw-the-line",
+
+  "DocumentationLink": "",
+  "RoadmapLink": "",
+  "TutorialLink": "",
+
+  "MainTag_1": "Game Template",
+  "MainTag_2": "FPS",
+  "MainTag_3": "Retro FPS",
+
+  "Tags": [
+    "Boodmer Shooter",
+    "Retro",
+    "Shooter",
+    "Boomer",
+    "3D",
+    "2.5D",
+    "FPS",
+    "Game",
+    "Template",
+    "Game Template",
+    "Complete Project",
+    "GUI",
+    "UI",
+    "Gun",
+    "Weapons",
+    "Save System",
+    "Localization",
+    "Classic",
+    "Doom",
+    "New Input System",
+    "Retro FPS"
+  ],
+
+  "images": [
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" }
+  ],
+  "notes": [
+    {
+      "version": "3.0.0",
+      "beta": true,
+      "changes": [
+        { "badge": 1, "text": "Added new enemy types and weapons." },
+        { "badge": 2, "text": "Updated graphics and sound effects." },
+        { "badge": 3, "text": "Fixed bugs related to enemy AI." },
+        {
+          "badge": 4,
+          "text": "Reworked level design for better gameplay flow."
+        },
+        { "badge": 5, "text": "Migrated to Unity 2023.1." },
+        { "badge": 6, "text": "Integration with new dialogue system." }
+      ]
+    }
+  ]
+}

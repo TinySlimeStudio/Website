@@ -1,0 +1,76 @@
+{
+  "CardImage": "https://media.moddb.com/images/games/1/9/8086/Bushido-customisation-art.png",
+  "Icon": "../src/app/projects/AvatarCreator/Logo.png",
+  "ShortName": "Meet and Talk",
+  "Title": "Avatar Creator",
+  "SubTitle": "Character Customization System",
+  "Description": "...",
+  "Price": "???",
+  "Version": "1.7.0a",
+  "Category": "Universal System",
+  "UnityVersion": "2021.3.0f17+",
+  "ReleaseDate": "2023-10-01",
+  "StoreLink": "https://u3d.as/30sy",
+
+  "SitePath": "/projects/avatar-creator",
+
+  "DocumentationLink": "",
+  "RoadmapLink": "",
+  "TutorialLink": "",
+
+  "MainTag_1": "Game Template",
+  "MainTag_2": "FPS",
+  "MainTag_3": "Retro FPS",
+
+  "Tags": [
+    "Boodmer Shooter",
+    "Retro",
+    "Shooter",
+    "Boomer",
+    "3D",
+    "2.5D",
+    "FPS",
+    "Game",
+    "Template",
+    "Game Template",
+    "Complete Project",
+    "GUI",
+    "UI",
+    "Gun",
+    "Weapons",
+    "Save System",
+    "Localization",
+    "Classic",
+    "Doom",
+    "New Input System",
+    "Retro FPS"
+  ],
+
+  "images": [
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" },
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" },
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" },
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" },
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" },
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" },
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" },
+    { "url": "../src/assets/img/hb.png", "alt": "Hellish Battle" }
+  ],
+  "notes": [
+    {
+      "version": "3.0.0",
+      "beta": true,
+      "changes": [
+        { "badge": 1, "text": "Added new enemy types and weapons." },
+        { "badge": 2, "text": "Updated graphics and sound effects." },
+        { "badge": 3, "text": "Fixed bugs related to enemy AI." },
+        {
+          "badge": 4,
+          "text": "Reworked level design for better gameplay flow."
+        },
+        { "badge": 5, "text": "Migrated to Unity 2023.1." },
+        { "badge": 6, "text": "Integration with new dialogue system." }
+      ]
+    }
+  ]
+}

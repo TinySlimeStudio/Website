@@ -1,0 +1,76 @@
+{
+  "CardImage": "https://assetstorev1-prd-cdn.unity3d.com/key-image/1324cfb0-7fc3-45b6-80f4-3c27d7285f1d.jpg",
+  "Icon": "../src/app/projects/MeetAndTalkFree/Logo.png",
+  "ShortName": "Meet and Talk",
+  "Title": "Meet and Talk",
+  "SubTitle": "Dialogue System",
+  "Description": "Meet and Talk is a dialogue system for creating simple or complex conversations with ease. It supports advanced nodes, localization, UI customization, and seamless integration to enhance storytelling.",
+  "Price": "Free",
+  "Version": "1.7.0a",
+  "Category": "Universal System",
+  "UnityVersion": "2021.3.0f17+",
+  "ReleaseDate": "2023-10-01",
+  "StoreLink": "https://u3d.as/30sy",
+
+  "SitePath": "/projects/meet-and-talk-free",
+
+  "DocumentationLink": "",
+  "RoadmapLink": "",
+  "TutorialLink": "",
+
+  "MainTag_1": "Game Template",
+  "MainTag_2": "FPS",
+  "MainTag_3": "Retro FPS",
+
+  "Tags": [
+    "Boodmer Shooter",
+    "Retro",
+    "Shooter",
+    "Boomer",
+    "3D",
+    "2.5D",
+    "FPS",
+    "Game",
+    "Template",
+    "Game Template",
+    "Complete Project",
+    "GUI",
+    "UI",
+    "Gun",
+    "Weapons",
+    "Save System",
+    "Localization",
+    "Classic",
+    "Doom",
+    "New Input System",
+    "Retro FPS"
+  ],
+
+  "images": [
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" }
+  ],
+  "notes": [
+    {
+      "version": "3.0.0",
+      "beta": true,
+      "changes": [
+        { "badge": 1, "text": "Added new enemy types and weapons." },
+        { "badge": 2, "text": "Updated graphics and sound effects." },
+        { "badge": 3, "text": "Fixed bugs related to enemy AI." },
+        {
+          "badge": 4,
+          "text": "Reworked level design for better gameplay flow."
+        },
+        { "badge": 5, "text": "Migrated to Unity 2023.1." },
+        { "badge": 6, "text": "Integration with new dialogue system." }
+      ]
+    }
+  ]
+}

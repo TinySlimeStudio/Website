@@ -1,0 +1,439 @@
+{
+  "CardImage": "../src/assets/projects/HB/Header.png",
+  "Icon": "../src/app/projects/HellishBattle/Logo.png",
+  "ShortName": "Hellish Battle",
+  "Title": "Hellish Battle",
+  "SubTitle": "2.5D Retro FPS",
+  "Description": "Hellish Battle is modeled on classics such as Doom (1993), Wolfenstein 3D (1992). It takes the best of the old classics, and adds elements from the latest FPS.",
+  "Price": "$9.99",
+  "Version": "2.5.2a*",
+  "Category": "Game Template",
+  "UnityVersion": "2021.3.0f17+",
+  "ReleaseDate": "2022-04-22",
+  "StoreLink": "https://u3d.as/2Nyc",
+  "DemoLink": "https://tiny-slime-studio.itch.io/hellishbattle",
+
+  "SitePath": "/projects/hellish-battle",
+
+  "DocumentationLink": "",
+  "RoadmapLink": "",
+  "TutorialLink": "",
+
+  "MainTag_1": "Game Template",
+  "MainTag_2": "FPS",
+  "MainTag_3": "Retro FPS",
+
+  "Tags": [
+    "Boomer Shooter",
+    "Retro",
+    "Shooter",
+    "Boomer",
+    "3D",
+    "2.5D",
+    "FPS",
+    "Game",
+    "Template",
+    "Game Template",
+    "Complete Project",
+    "GUI",
+    "UI",
+    "Gun",
+    "Weapons",
+    "Save System",
+    "Localization",
+    "Classic",
+    "Doom",
+    "New Input System",
+    "Retro FPS"
+  ],
+
+  "images": [
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" },
+    { "url": "https://ui.shadcn.com/placeholder.svg", "alt": "Hellish Battle" }
+  ],
+
+  "notes": [
+    {
+      "version": "3.0.0",
+      "beta": true,
+      "changes": [
+        { "badge": 1, "text": "Added new enemy types and weapons." },
+        { "badge": 2, "text": "Updated graphics and sound effects." },
+        { "badge": 3, "text": "Fixed bugs related to enemy AI." },
+        {
+          "badge": 4,
+          "text": "Reworked level design for better gameplay flow."
+        },
+        { "badge": 5, "text": "Migrated to Unity 2023.1." },
+        { "badge": 6, "text": "Integration with new dialogue system." }
+      ]
+    },
+    {
+      "version": "2.5.2a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Add Unity 6 Native Support" },
+        { "badge": 2, "text": "Updated Test Version Installer" },
+        { "badge": 6, "text": "Support for Meet and Talk 1.7 Update" }
+      ]
+    },
+    {
+      "version": "2.5.1c",
+      "beta": false,
+      "changes": [
+        { "badge": 2, "text": "Improved Beta Feature Window" },
+        { "badge": 3, "text": "More Build Error Fixes" }
+      ]
+    },
+    {
+      "version": "2.5.1b",
+      "beta": false,
+      "changes": [{ "badge": 3, "text": "Build Error Fixes" }]
+    },
+    {
+      "version": "2.5.1a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Script Namespace" },
+        { "badge": 1, "text": "Beta Feature Window" },
+        { "badge": 6, "text": "Updated Meet and Talk Integration" },
+        { "badge": 3, "text": "Bug Fixes" }
+      ]
+    },
+    {
+      "version": "2.5.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Spawn Items Between Waves" },
+        { "badge": 1, "text": "Spawn Random Items" },
+        { "badge": 1, "text": "New Mode: Laboratory" },
+        { "badge": 1, "text": "Pick-Up Points" },
+        { "badge": 1, "text": "Category Enemy Spawn List" },
+        { "badge": 2, "text": "Elevator Improved" },
+        { "badge": 4, "text": "Rework Campaign Manager" },
+        { "badge": 4, "text": "Status Effect System" },
+        { "badge": 4, "text": "Wave & Deadly Mode Rework" },
+        { "badge": 4, "text": "Boss Wave" },
+        { "badge": 4, "text": "Arcade Mode Rework" }
+      ]
+    },
+    {
+      "version": "2.4.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Safe System" },
+        { "badge": 1, "text": "Keypad System" },
+        { "badge": 1, "text": "Lockpicking System" },
+        { "badge": 1, "text": "In-Game Buttons" },
+        { "badge": 1, "text": " In-Game Family Buttons" },
+        { "badge": 1, "text": "Multi Option Switch" },
+        { "badge": 1, "text": "Teleports" },
+        { "badge": 1, "text": "In-Game Notes" },
+        { "badge": 2, "text": "Commands & CHeats Improved" },
+        { "badge": 2, "text": "Chest Improved" },
+        { "badge": 2, "text": "Interaction UI Templates" },
+        { "badge": 2, "text": "Tiny GUI Editor" },
+        { "badge": 2, "text": "Multiple Updates Editors" },
+        { "badge": 5, "text": "Update Built-In Loot Table to Version 2.0.0" },
+        { "badge": 3, "text": "Weapon Coroutine Errors" }
+      ]
+    },
+    {
+      "version": "2.3.1a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "25 Weapon Skins" },
+        { "badge": 1, "text": "18 Weapon Upgrades (With Skins)" },
+        { "badge": 1, "text": "Weapon Upgrade Functionality" },
+        { "badge": 3, "text": "Many Bugs Fixes" }
+      ]
+    },
+    {
+      "version": "2.3.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Weapon Inspection" },
+        { "badge": 1, "text": "Weapon Speed Reduction" },
+        { "badge": 1, "text": "Range Firerate Curve" },
+        { "badge": 1, "text": "Bullet Force" },
+        { "badge": 1, "text": "Skin System" },
+        { "badge": 1, "text": "Upgrade System" },
+        { "badge": 1, "text": "4 New Weapon (Bow, Minigun, Molotov, Kunai)" },
+        { "badge": 1, "text": "2 Weapon Upgrade (Preview Upgrade System)" },
+        { "badge": 1, "text": "6 Weapon Skin" },
+        { "badge": 2, "text": "Improved Weapon Sprites" },
+        { "badge": 2, "text": "Improved Range Weapon Script" },
+        { "badge": 2, "text": "Improved Melle Weapon Script" },
+        { "badge": 4, "text": "Rework Throwable Weapon Script" }
+      ]
+    },
+    {
+      "version": "2.2.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Dash System" },
+        { "badge": 1, "text": "Crouch" },
+        { "badge": 1, "text": "Stamina System" },
+        { "badge": 1, "text": "Fall Damage" },
+        { "badge": 1, "text": "Multi Jump" },
+        { "badge": 1, "text": "Ladder System" },
+        { "badge": 1, "text": "Player FX" },
+        { "badge": 1, "text": "10 New Passive" },
+        { "badge": 2, "text": "Ability Improve" },
+        { "badge": 4, "text": "Movement System" }
+      ]
+    },
+    {
+      "version": "2.1.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Body Part Collision" },
+        { "badge": 1, "text": "Multiple Enemy Attack" },
+        { "badge": 1, "text": "Blood Effects" },
+        { "badge": 1, "text": "Damage Multipliers" },
+        { "badge": 1, "text": "Summon Minion" },
+        { "badge": 1, "text": "Guided Missles" },
+        { "badge": 1, "text": "EditorGUI Extension" },
+        { "badge": 2, "text": "Improve Enemy UI" },
+        { "badge": 2, "text": "Healing Zone" },
+        { "badge": 4, "text": "Damage System" }
+      ]
+    },
+    {
+      "version": "2.0.1a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Classic Inventory Type" },
+        { "badge": 1, "text": "Audio Settings" },
+        { "badge": 2, "text": "Complete Story Mode System" },
+        { "badge": 3, "text": "Feedback System Error in Unity 2022+" },
+        { "badge": 3, "text": "Load on Next Map Errors" },
+        { "badge": 3, "text": "Level Manager Errors" },
+        { "badge": 3, "text": "Fix Other 25+ Bugs" }
+      ]
+    },
+    {
+      "version": "2.0.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Story Mode System" },
+        { "badge": 1, "text": "Player Save Progress" },
+        { "badge": 1, "text": "Weapon Type Class" },
+        { "badge": 1, "text": "Start Weapon Pool" },
+        { "badge": 1, "text": "Player Face Animation" },
+        { "badge": 1, "text": "4 New Maps" },
+        { "badge": 1, "text": "Flash Enemy when Take Damage" },
+        { "badge": 1, "text": "Over 100 New Textures" },
+        { "badge": 1, "text": "Feedback Report System" },
+        { "badge": 2, "text": "Pick-Up System" },
+        { "badge": 2, "text": "New User Interface" },
+        { "badge": 2, "text": "Improve Old Maps" },
+        { "badge": 2, "text": "Improve Over 35 Scripts" },
+        { "badge": 4, "text": "Inventory System" },
+        { "badge": 4, "text": "Rework Settings Manager" },
+        { "badge": 4, "text": "Rework 5 Scripts" }
+      ]
+    },
+    {
+      "version": "1.10.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "No Weapon Area" },
+        { "badge": 1, "text": "Unlockable Points" },
+        { "badge": 1, "text": "Ability / Skill Unlockable" },
+        { "badge": 1, "text": "Enemy Phase" },
+        { "badge": 1, "text": "Crosshair Customization" },
+        { "badge": 1, "text": "Descructible Object" },
+        { "badge": 1, "text": "New Game Features" },
+        { "badge": 4, "text": "Better Interaction System" },
+        { "badge": 6, "text": "Meet and Talk - Dialogue System" }
+      ]
+    },
+    {
+      "version": "1.9.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Difficulty Level" },
+        { "badge": 1, "text": "Player Ability System" },
+        { "badge": 1, "text": "Passive Skill" },
+        { "badge": 1, "text": "Ability" },
+        { "badge": 1, "text": "UI Popup Text" },
+        { "badge": 1, "text": "Chest System" },
+        { "badge": 1, "text": "Localization Edition Popup" },
+        { "badge": 1, "text": "Better Debug.Log" },
+        { "badge": 4, "text": "Rebuild Campaign Manager" }
+      ]
+    },
+    {
+      "version": "1.8.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 5, "text": "Migrate to Unity 2021.3f17" },
+        { "badge": 1, "text": "Convert to New Input System" },
+        { "badge": 1, "text": "Key Binding" },
+        { "badge": 1, "text": "Controller Support" },
+        { "badge": 1, "text": "New Weapon Shot: Laser" },
+        { "badge": 1, "text": "New Weapon Shot: Charge" },
+        { "badge": 1, "text": "Dual Wielding Gun" },
+        { "badge": 1, "text": "3 New Pre-Build Weapon" },
+        { "badge": 1, "text": "HideIf Attribute" },
+        { "badge": 1, "text": "New Localization Property" },
+        { "badge": 1, "text": "Hierarchy Separator" },
+        { "badge": 1, "text": "Requirement Package Window" },
+        { "badge": 4, "text": "Update Loot Table to 1.1.0a" },
+        { "badge": 3, "text": "Fix Mobile Controller" }
+      ]
+    },
+    {
+      "version": "1.7.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "New Settings Option" },
+        { "badge": 1, "text": "In Game Patch Notes" },
+        { "badge": 1, "text": "Version Checker" },
+        { "badge": 1, "text": "Enemy Health Bar" },
+        { "badge": 1, "text": "Traps" },
+        { "badge": 1, "text": "Damage Indicators" },
+        { "badge": 1, "text": "Fly Cheats" },
+        { "badge": 1, "text": "Cheat Console" },
+        { "badge": 1, "text": "Game Feature Manager" },
+        { "badge": 4, "text": "Rebuild Demo Scene" }
+      ]
+    },
+    {
+      "version": "1.6.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Gamemode System" },
+        { "badge": 1, "text": "3 New Gamemode: Deadly Race, Wave, Arcade" },
+        { "badge": 1, "text": "Score Points" },
+        { "badge": 1, "text": "2 New Trophy: None, Diamond" },
+        {
+          "badge": 1,
+          "text": "Different requirements can be added to each level"
+        },
+        { "badge": 1, "text": "Help Box Attribute" },
+        { "badge": 1, "text": "Gamemode UI" },
+        { "badge": 1, "text": "Enemy Grave Toggle" },
+        { "badge": 1, "text": "New Gamemode Map Death Ring" },
+        { "badge": 4, "text": "Trophy System Rework" },
+        { "badge": 6, "text": "Loot Table - Universal Loot System" }
+      ]
+    },
+    {
+      "version": "1.5.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Boss System" },
+        { "badge": 1, "text": "Enemy Ability" },
+        { "badge": 1, "text": "Pickable Ammo Box" },
+        { "badge": 1, "text": "Enemy Sounds" },
+        { "badge": 1, "text": "Enemy Drop Loot" },
+        { "badge": 1, "text": "More Enemy Presets" },
+        { "badge": 2, "text": "Better Interaction System" },
+        { "badge": 2, "text": "Enemy AI" }
+      ]
+    },
+    {
+      "version": "1.4.0c",
+      "beta": false,
+      "changes": [{ "badge": 3, "text": "Few Cricital Bugs" }]
+    },
+    {
+      "version": "1.4.0b",
+      "beta": false,
+      "changes": [
+        { "badge": 2, "text": "Better Enemy Vision" },
+        { "badge": 2, "text": "Suffix Attribute" },
+        { "badge": 3, "text": "No Player Detection by Opponents" }
+      ]
+    },
+    {
+      "version": "1.4.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "New Fire Mode: Burst" },
+        { "badge": 1, "text": "Ammo Cost pre Shot to Range Weapon" },
+        { "badge": 1, "text": "One Shot Multi Bullet \"Shotgun Effect\"" },
+        { "badge": 1, "text": "Weapon Spread" },
+        { "badge": 1, "text": "Weapon Name" },
+        { "badge": 1, "text": "Melle Weapon" },
+        { "badge": 1, "text": "Throwable Weapon" },
+        { "badge": 1, "text": "Custom Editor Attribute" },
+        { "badge": 1, "text": "Save System" },
+        { "badge": 4, "text": "Rebuild Weapon System" }
+      ]
+    },
+    {
+      "version": "1.3.0b",
+      "beta": false,
+      "changes": [{ "badge": 3, "text": "Display 1 no camera rendering" }]
+    },
+    {
+      "version": "1.3.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Mobile Control" },
+        { "badge": 1, "text": "Trophy System" },
+        { "badge": 1, "text": "Popup Info" },
+        { "badge": 1, "text": "Animation Tiles" },
+        { "badge": 1, "text": "Explosion Damage Curves" },
+        { "badge": 1, "text": "Chapter Manager" },
+        { "badge": 2, "text": "Documentation" },
+        { "badge": 2, "text": "Locaization System" },
+        { "badge": 2, "text": "Save System" },
+        { "badge": 2, "text": "Improve Organization" }
+      ]
+    },
+    {
+      "version": "1.2.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Localization System: String" },
+        { "badge": 1, "text": "Save System: Int, Float, String, Bool" },
+        { "badge": 1, "text": "Camera Shake" },
+        { "badge": 1, "text": "Self-Damage" },
+        { "badge": 1, "text": "Door Key" },
+        { "badge": 1, "text": "Switch" },
+        { "badge": 1, "text": "Secrets" },
+        { "badge": 1, "text": "Base Settings" },
+        { "badge": 1, "text": "Finished Level" },
+        { "badge": 1, "text": "Elevator" }
+      ]
+    },
+    {
+      "version": "1.1.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Weapon Animation" },
+        { "badge": 1, "text": "New Weapon Mode: Automatic, Aim" },
+        { "badge": 1, "text": "Enemy AI: Alert, Attack, Chase, Patrol" },
+        { "badge": 1, "text": "Danger Zone" },
+        { "badge": 1, "text": "Explosion Barrel" },
+        { "badge": 1, "text": "Change Fov" },
+        { "badge": 1, "text": "Pause Screen" },
+        { "badge": 1, "text": "80+ Level Texture" }
+      ]
+    },
+    {
+      "version": "1.0.0a",
+      "beta": false,
+      "changes": [
+        { "badge": 1, "text": "Movement System" },
+        { "badge": 1, "text": "Health & Armor System" },
+        { "badge": 1, "text": "2 Weapon Type: Hitscan, Projectile" },
+        { "badge": 1, "text": "Ammo Pools & Pick-Up Bonus" },
+        { "badge": 1, "text": "4 Template Weapon" },
+        { "badge": 1, "text": "Simple Door System" },
+        { "badge": 1, "text": "Dummy Enemy" },
+        { "badge": 1, "text": "50+ Level Texture" }
+      ]
+    }
+  ]
+}
